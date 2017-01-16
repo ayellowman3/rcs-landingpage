@@ -1,0 +1,21 @@
+
+// Guide: Project Structure Guide: http://thesassway.com/beginner/how-to-structure-a-sass-project
+
+
+//  Modules & Variables
+@import 'partials/base';
+
+
+// Partials
+@import 'partials/reset';
+@import 'partials/typography';
+@import 'partials/buttons';
+@import 'partials/figures';
+@import 'partials.grids';
+
+
+// Third Party
+//  BOOTSTRAP (LOCALLY HOSTED)
+// Note: Javascript not working with local stylesheets. (needs fix)
+//Uncomment next line to use local bootstrap.
+//@import 'partials/bootstrap';

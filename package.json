@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "devDependencies": {
     "browser-sync": "^2.18.6",
+    "bootstrap": "^4.0.0.alpha6",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0"
   }
