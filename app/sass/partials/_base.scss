@@ -1,0 +1,32 @@
+
+
+// Font weights
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 700;
+
+//Base Font
+$base-font-family: 'Roboto', sans-serif;
+$base-font-weight: $regular;
+$base-font-size: 16px;
+$base-line-height: 1.5;
+
+// Fixed Font
+$fixed-font-family: monospace;
+$fixed-font-size: 85%;
+$fixed-lined-height: $base-line-height;
+
+// Headings
+$header-font-weight: $bold;
+
+
+// Colors
+$primary-color-dark:   #0288D1;
+$primary-color:        #03A9F4;
+$primary-color-light:  #B3E5FC;
+$primary-color-text:   #FFFFFF;
+$accent-color:         #FF5252;
+$primary-text-color:   #212121;
+$secondary-text-color: #757575;
+$divider-color:        #BDBDBD;
