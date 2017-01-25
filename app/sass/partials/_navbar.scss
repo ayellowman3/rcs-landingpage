@@ -1,12 +1,27 @@
-.bg-faded {
-  background-color: white;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
 
 .navbar-light .navbar-nav .nav-link {
-  color: #868e96;
+  color: $primary-color-text;
+  font-weight: 500;
+
+
+  .active > .nav-link {
+    color: $primary-color-text;
+  }
 }
 
 .navbar {
+  margin-top: 2rem;
+
+  &-brand-logo{
+    height: 1.5rem;
+
+  }
+
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open > .nav-link {
+  color: $primary-color-text;
+}
+
+.navbar-item > a {
 
 }

@@ -3,7 +3,8 @@
   padding-top: 100px;
 
   .card {
-
+    background-color: $primary-background-color-light;
+    border: none;
     border-radius: .25rem;
   }
 
@@ -12,5 +13,9 @@
     margin-top: 10px;
   }
 
+}
+
+.services__icon {
+    height: 64px;
 
 }

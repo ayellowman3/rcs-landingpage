@@ -1,3 +1,6 @@
+body {
+  background-color: #f8f9fa; }
+
 html,
 body,
 ul,
@@ -6,53 +9,67 @@ ol {
   padding: 0; }
 
 * {
-  font-family: "Roboto", sans-serif; }
+  font-family: "HelveticaNeue", "Roboto", sans-serif; }
 
 p {
   line-height: 1.5;
-  color: #212121; }
+  color: #212529; }
 
 a {
-  font-family: "Roboto", sans-serif; }
+  font-family: "HelveticaNeue", "Roboto", sans-serif; }
 
 .navlink {
-  font-family: "Roboto", sans-serif; }
+  font-family: "HelveticaNeue", "Roboto", sans-serif; }
 
 h1 {
-  font-family: "Roboto", sans-serif; }
+  font-family: "HelveticaNeue", "Roboto", sans-serif; }
 
 h2 {
-  font-family: "Roboto", sans-serif; }
+  font-family: "HelveticaNeue", "Roboto", sans-serif; }
 
 h3 {
-  font-family: "Roboto", sans-serif; }
+  font-family: "HelveticaNeue", "Roboto", sans-serif; }
 
 h4 {
-  font-family: "Roboto", sans-serif; }
+  font-family: "HelveticaNeue", "Roboto", sans-serif; }
 
 .btn-primary {
-  background-color: #FF5252;
-  border-color: #FF5252; }
+  background-color: #329af0;
+  border-radius: 2rem; }
+  .btn-primary :hover {
+    background-color: #72c3fc; }
 
 .btn-outline-success {
-  color: #FF5252;
-  border-color: #FF5252; }
-
-.bg-faded {
-  background-color: white;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  color: #329af0;
+  border-color: #329af0; }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #868e96; }
+  color: #e9ecef;
+  font-weight: 500; }
+  .navbar-light .navbar-nav .nav-link .active > .nav-link {
+    color: #e9ecef; }
+
+.navbar {
+  margin-top: 2rem; }
+  .navbar-brand-logo {
+    height: 1.5rem; }
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open > .nav-link {
+  color: #e9ecef; }
 
 .jumbotron {
+  margin-top: -6rem;
+  background-image: url("/img/header-2.jpg");
+  background-size: cover;
+  background-position: center;
   margin-bottom: 0;
   background-color: white;
-  padding-top: 100px;
-  padding-bottom: 100px; }
-
-.lead {
-  color: #212529; }
+  padding-top: 300px;
+  padding-bottom: 300px; }
+  .jumbotron .display-4 {
+    color: #e9ecef; }
+  .jumbotron .lead {
+    color: #e9ecef; }
 
 #about {
   background-color: #f1f3f5;
@@ -63,10 +80,15 @@ h4 {
   padding-bottom: 100px;
   padding-top: 100px; }
   #services .card {
+    background-color: #f8f9fa;
+    border: none;
     border-radius: .25rem; }
   #services .top-card-block {
     margin-bottom: 20px;
     margin-top: 10px; }
+
+.services__icon {
+  height: 64px; }
 
 #testimonials {
   padding-top: 100px;

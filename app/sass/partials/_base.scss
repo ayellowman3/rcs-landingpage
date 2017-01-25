@@ -7,7 +7,7 @@ $medium: 500;
 $bold: 700;
 
 //Base Font
-$base-font-family: 'Roboto', sans-serif;
+$base-font-family: 'HelveticaNeue', 'Roboto', sans-serif;
 $base-font-weight: $regular;
 $base-font-size: 16px;
 $base-line-height: 1.5;
@@ -22,11 +22,19 @@ $header-font-weight: $bold;
 
 
 // Colors
-$primary-color-dark:   #0288D1;
-$primary-color:        #03A9F4;
-$primary-color-light:  #B3E5FC;
-$primary-color-text:   #FFFFFF;
-$accent-color:         #FF5252;
-$primary-text-color:   #212121;
-$secondary-text-color: #757575;
-$divider-color:        #BDBDBD;
+$primary-color-dark:   #1c7cd6;
+$primary-color:        #329af0;
+$primary-color-light:  #72c3fc;
+$primary-color-text:   #e9ecef;
+$accent-color:         #ff6b6b;
+$primary-text-color:   #212529;
+$secondary-text-color: #868e96;
+$divider-color:        #e9ecef;
+$primary-background-color-light: #f8f9fa;
+$primary-background-color-dark: #495057;
+
+
+
+body {
+  background-color: $primary-background-color-light;
+}
